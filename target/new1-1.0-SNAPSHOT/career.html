@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Opportunities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .job-listing {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .apply-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .form-container {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Join Our Team</h1>
+
+    <div class="job-listing">
+        <h2>Software Developer</h2>
+        <p>We are looking for a talented and experienced Software Developer to join our team.</p>
+        <p>Requirements:</p>
+        <ul>
+            <li>Bachelor's degree in Computer Science or related field</li>
+            <li>Experience with HTML, CSS, and JavaScript</li>
+            <li>Strong problem-solving skills</li>
+        </ul>
+<!--        <a href="#" class="apply-button" onclick="applyNow('Software Developer')">Apply Now</a>-->
+    </div>
+
+    <div class="job-listing">
+        <h2>Marketing Specialist</h2>
+        <p>We are seeking a creative and motivated Marketing Specialist to help promote our products.</p>
+        <p>Requirements:</p>
+        <ul>
+            <li>Bachelor's degree in Marketing or related field</li>
+            <li>Experience in digital marketing and social media</li>
+            <li>Excellent communication skills</li>
+        </ul>
+<!--        <a href="#" class="apply-button" onclick="applyNow('Marketing Specialist')">Apply Now</a>-->
+    </div>
+    
+    <div class="job-listing">
+        <h2>Associate HR</h2>
+        <p>We are seeking a creative and motivated Associate HR to control our management system.</p>
+        <p>Requirements:</p>
+        <ul>
+            <li>Bachelor's degree in Business Administration</li>
+            <li>Experience in Business Administration and social media</li>
+            <li>Excellent communication skills</li>
+        </ul>
+<!--        <a href="#" class="apply-button" onclick="applyNow('Marketing Specialist')">Apply Now</a>-->
+    </div>
+    
+    <div class="job-listing">
+        <h2>Software Tester</h2>
+        <p>We are looking for a talented and experienced Software Tester to join our team.</p>
+        <p>Requirements:</p>
+        <ul>
+            <li>Bachelor's degree in CSE</li>
+            <li>Experience in Testing</li>
+            <li>Strong problem-solving skills</li>
+        </ul>
+<!--        <a href="#" class="apply-button" onclick="applyNow('Marketing Specialist')">Apply Now</a>-->
+    </div>
+
+    <!-- Add more job listings as needed -->
+
+    <div class="form-container">
+        <h2>Apply for a Job</h2>
+        <form action="career.jsp" method="post">
+            <label for="jobSelect">Select a Job:</label>
+            <select id="jobSelect" name="selectedJob">
+                <option value="Software Developer">Software Developer</option>
+                <option value="Marketing Specialist">Marketing Specialist</option>
+                <option value="Associate HR">Associate HR</option>
+                <option value="Software Tester">Software Tester</option>
+                <!-- Add more job options as needed -->
+            </select>
+            <br>
+            <input type="submit" value="Apply Now" class="apply-button">
+        </form>
+    </div>
+
+    
+
+</body>
+</html>
